@@ -1,14 +1,5 @@
 const time = document.querySelector("h2");
 
-function f(){
-    this.a = 9;
-}
-
-function g(){
-    this.b = 5;
-    console.log(2);
-}
-
 function clocking(){
     const clock = new Date();
     let hour = clock.getHours();
