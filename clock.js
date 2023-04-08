@@ -34,19 +34,3 @@ function timerequire(){
     setInterval(clocking, 1000); //지정한 function을 지정한 시간(ms)이 지날 때 마다 반복호출
 }
 timerequire();
-
-// g.prototype = new f();
-// g.prototype.construcor = g;
-// const t = new g();
-// console.log(t, t.a, t.a, new f());
-
-// g.prototype = new f();
-// f.prototype.constructor = g;
-// const t = new g();
-// console.log(t);
-
-// clocking.prototype.i = 9;
-// console.log(clocking.prototype);
-// let clo = new clocking();
-// let col = new clocking();
-// console.log(clo.i, col, clocking.prototype);
