@@ -10,21 +10,25 @@
 <body>
     <h1 id="greeting">Welcome to TODOList</h1>
     <h2 id="clock"></h2>
-    <form class="submit">
-        <input 
-        required 
-        maxlength="15" 
-        type="text" 
-        placeholder="Hello, what`s your name?">
-        <button>Log In</button>
-    </form> 
-    <button class="logout" onclick="logoutadjustHidden(); changeInner(); removeAppData();">Log Out</button>
-    <ul class="works"></ul>
-    <p class="quotes"></p>
-    <div class="openweather">
-        <span></span>
-        <span></span>
-    </div>
+    <main>
+        <form class="submit">
+            <input 
+            required 
+            maxlength="15" 
+            type="text" 
+            placeholder="Hello, what`s your name?">
+            <button>Log In</button>
+        </form> 
+        <button class="logout" onclick="logoutadjustHidden(); changeInner(); removeAppData();">Log Out</button>
+        <ul class="works"></ul>
+    </main>
+    <footer>
+        <p class="quotes"></p>
+        <div class="openweather">
+            <span></span>
+            <span></span>
+        </div>
+    </footer>
     <img class="img-fluid">
     <script src="app1.js"></script>
     <script src="clock.js"></script>
