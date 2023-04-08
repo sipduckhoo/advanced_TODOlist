@@ -1,7 +1,6 @@
 const image_address = ["https://th.bing.com/th/id/R.91fb911e4796ba27b2f4960bfce52743?rik=OpSG2sHEe8sxyw&riu=http%3a%2f%2fcfile10.uf.tistory.com%2fimage%2f144B8D385017F9FF061F72&ehk=oV77Zy1IwbAAkcG9RHDm%2bKEZTsggdsHEHPR4lLSv4%2fs%3d&risl=&pid=ImgRaw&r=0",
 "https://img.chuing.net/i/QppyJu/Preview.x.jpg",
-"https://t1.daumcdn.net/cfile/tistory/184CE23C4ECF61B613",
-"https://th.bing.com/th/id/OIP.RsT8zeZhO1JSMGEJSwiidgFNC7?w=326&h=183&c=7&r=0&o=5&pid=1.7"];
+"https://t1.daumcdn.net/cfile/tistory/184CE23C4ECF61B613"];
 
 const quotes = ["Think like a man of action and act like man of thought.",
 "Courage is very important. Like a muscle, it is strengthened by use.",
