@@ -24,9 +24,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 28vh;
+    align-items: center;
+    padding-top: 20vh;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+}
+
+main{
+    width: 50vw;
 }
 
 .works>li {
@@ -35,7 +39,14 @@ body {
 }
 
 .works{
+    padding-top: 40px;
     padding-left:0px;
+    overflow: auto;
+    height: 30vh;
+}
+
+.works::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
 
 h1, h2, p, form, .openweather, .works>li {
